@@ -1,0 +1,24 @@
+{
+  "name": "oreact",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "build:tailwind": "npx tailwindcss -i ./src/app/globals.css -o ./src/output.css"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "axios": "^1.5.1",
+    "next": "latest",
+    "postcss": "^8.4.30",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-icons": "^4.11.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
